@@ -43,9 +43,12 @@
 //     }
 // }
 // evennum(1,20);
+
 var even=0;
 var odd=0;
 function count(start,end){
+    
+   
     for(a=start;a<=end;a++){
       if(a%2==0){
       
@@ -58,16 +61,16 @@ function count(start,end){
       }
 
     }
-   
-    return even;
-    return odd;
+
+    return a;
+    // return odd;
     // console.log("even numbers are:"+even); 
     // console.log("odd numbers are:"+odd);
    
 }
-count(1,11);
-console.log("even numbers are:"+even); 
-console.log("odd numbers are:"+odd);
+var ans =count(1,11);
+console.log(a); 
+// console.log("odd numbers are:"+odd);
 
 
 // function count(start,end){
