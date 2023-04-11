@@ -44,10 +44,11 @@
 // }
 // evennum(1,20);
 
-var even=0;
-var odd=0;
+
 function count(start,end){
-    
+  var even=0;
+  var odd=0;
+  // var array=[];
    
     for(a=start;a<=end;a++){
       if(a%2==0){
@@ -62,14 +63,15 @@ function count(start,end){
 
     }
 
-    return a;
+    return [even,odd];
     // return odd;
     // console.log("even numbers are:"+even); 
     // console.log("odd numbers are:"+odd);
    
 }
 var ans =count(1,11);
-console.log(a); 
+const[even,odd]=count(1,11)
+console.log(even,odd); 
 // console.log("odd numbers are:"+odd);
 
 
