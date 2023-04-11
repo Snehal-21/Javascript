@@ -134,3 +134,94 @@
 // }
 // var ans=pnz(-1,2,4,0,-4);
 // console.log(ans);
+
+// Q.11 largest or smallest number
+// numbers = [2, 4]
+// function large(){
+// var largest = numbers[0];
+// var smallest = numbers[0];
+
+// for (var i = 1; i < numbers.length; i++) {
+
+//   if (numbers[i] > largest) {
+//     largest = numbers[i];
+//   } else if (numbers[i] < smallest) {
+//     smallest = numbers[i];
+//   }
+
+//   console.log("largest: "+largest);
+//   console.log("smallest: "+smallest);
+// }
+// }
+// var ans=large();
+
+// Q.12 armstrong numbers between 1 and 500
+
+// Q.13 Fibonacci series
+//  function fibbonacci(num){
+//     var a1=0;
+//     var a2=1;
+//     var nextterm;
+//     for(a=1;a<=num;a++){
+//         console.log(a1);
+//         nextterm=a1+a2;
+//         a1=a2;
+//         a2=nextterm
+//         }
+//  }
+//  fibbonacci(5);
+
+// Q.14 write the sum of 1+1/2+1/3....1/n
+
+// function recisum(num){
+//     var sum=0;
+//     for(a=1;a<=num;a++){
+//         sum+=1.0/a
+//     }
+//     return sum;
+
+// }
+// var ans=recisum(2);
+// console.log(ans);
+
+// Q.15 1-1/2+1/3-...1/n
+
+// function reciminus(num){
+//     var sum=0;
+//     var sign=1;
+//     for(a=1;a<=num;a++){
+//         sum+=(1.0*sign/a);
+//         sign*=-1;
+//     }
+//     return sum;
+// }
+// var ans=reciminus(2);
+// console.log(ans);
+
+// Q.16 pyramid pattern
+
+// function pyramid(n){
+// for (let i = 1; i <= n; i++) {
+//   for (let j = 1; j <= n - i; j++) {
+//     process.stdout.write(' ')
+//   }
+//   for (let k = 0; k < 2 * i - 1; k++) {
+//     process.stdout.write('*')
+//   }
+//   console.log();
+// }
+// }
+// pyramid(5)
+
+// function generatePyramid(num) {
+//     // var totalNumberofRows = 5;
+//     var arr = new Array();
+//     for (var i = 1; i <= num; i++) {
+//       for (var j = 1; j <= i; j++) {
+//         arr.push(j);
+//         console.log(j);
+//       }
+//       console.log("\n");
+//     }
+//   }
+//   generatePyramid(5)
