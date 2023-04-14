@@ -35,8 +35,67 @@ var studentlist=["snehal","anu","mayuri","madhuri","punam","swaraj"];
 //     console.log("krishanan is not in our data");
 // }
 
-for(var a=0;a<studentlist.length;a++){
-    if(studentlist[a]=="anu" || studentlist[a]=="snehal"){
-        console.log("swaraj or snehal is in our data")
-    }
+// for(var a=0;a<studentlist.length;a++){
+//     if(studentlist[a]=="anu" || studentlist[a]=="snehal"){
+//         console.log("swaraj or snehal is in our data")
+//     }
+// }
+
+// var fruits=["mango","banana","grapes","watermelon","pine apple","orange"]
+// console.log(fruits)
+// fruits.push="wood apple";
+// console.log(fruits);
+// console.log(fruits.length);
+// var flag=false;
+// for(i=0;i<fruits.length;i++){
+//     if(fruits[i]=="orange"){
+//         flag=true;
+//     }
+// }
+// if(flag==false){
+//     console.log("orange is not in our Array");
+// }
+// else{
+//     console.log("orange is in our Array");
+// }
+
+// function findmax(arr){
+// // console.log(arr)
+// console.log("length of array is: "+arr.length)
+// var max=arr[0];
+// // if(arr[1]>max){
+// //     max=arr[1];
+// // }
+// for(a=1;a<arr.length;a++){
+//     if(arr[a]>max){
+//             max=arr[a];
+//         }
+// }
+// return max;
+// }
+// var arr=[6544,32323,54,6,87];
+// console.log("greter number is: "+findmax(arr))
+
+
+// function findmin(arr){
+//     // console.log(arr)
+//     // console.log(arr.length)
+//     var min=arr[0];
+//     // if(arr[1]>max){
+//     //     max=arr[1];
+//     // }
+//     for(a=1;a<arr.length;a++){
+//         if(arr[a]<min){
+//                 min=arr[a];
+//             }
+//     }
+//     return min;
+//     }
+//     var arr=[6544,32323,54,6,87];
+//     console.log("smallest number is: "+findmin(arr))
+
+function popup(){
+    console.log("successful")
+alert("clicked succesfully");
+
 }
