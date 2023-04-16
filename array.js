@@ -42,6 +42,22 @@ var studentlist=["snehal","anu","mayuri","madhuri","punam","swaraj"];
 // }
 
 // var fruits=["mango","banana","grapes","watermelon","pine apple","orange"]
+// if(fruits.includes("add")){ //check if specific elemnt is present in an array or not
+//     console.log("present")
+// }
+// else{
+//     console.log("absent")
+// }
+
+// fruits.splice(4); //remove an element from a specific index
+// console.log(fruits)
+
+// var copyarr=fruits.slice();  //to copy an array
+// console.log(copyarr)
+
+// fruits.sort(); //sorts an array
+// console.log(fruits)
+
 // console.log(fruits)
 // fruits.push="wood apple";
 // console.log(fruits);
@@ -77,25 +93,25 @@ var studentlist=["snehal","anu","mayuri","madhuri","punam","swaraj"];
 // console.log("greter number is: "+findmax(arr))
 
 
-// function findmin(arr){
-//     // console.log(arr)
-//     // console.log(arr.length)
-//     var min=arr[0];
-//     // if(arr[1]>max){
-//     //     max=arr[1];
-//     // }
-//     for(a=1;a<arr.length;a++){
-//         if(arr[a]<min){
-//                 min=arr[a];
-//             }
-//     }
-//     return min;
-//     }
-//     var arr=[6544,32323,54,6,87];
-//     console.log("smallest number is: "+findmin(arr))
+function findmin(arr){
+    // console.log(arr)
+    // console.log(arr.length)
+    var min=arr[0];
+    // if(arr[1]>max){
+    //     max=arr[1];
+    // }
+    for(a=1;a<arr.length;a++){
+        if(arr[a]<min){
+                min=arr[a];
+            }
+    }
+    return min;
+    }
+    var arr=[6544,32323,54,6,87];
+    console.log("smallest number is: "+findmin(arr))
 
-function popup(){
-    console.log("successful")
-alert("clicked succesfully");
+// function popup(){
+//     console.log("successful")
+// alert("clicked succesfully");
 
-}
+// }
