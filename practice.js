@@ -52,15 +52,25 @@
 //     console.log("not found")
 // }
 
-var array=[34,45,567,78,89,34,67,87,34,78,89];
-var empty=[];
-var object={};
-for(var i=0;i<array.length;i++){
+
+// var length=array.length;//to check length
+// // console.log(length)
+
+// array.push(100);
+
+// console.log(array)
+
+
+// var array=[34,45,567,78,89,34,67,87,34,78,89];
+// // var empty=[];
+// var object={};
+// for(var i=0;i<array.length;i++){
    
-    object={i:array[i]};
-    empty.push(object);
-}
-console.log(empty);
+//     object[i]=array[i];
+// }
+// console.log(object);
+
+
 
 
 
