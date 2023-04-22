@@ -70,6 +70,21 @@
 
 
 // }
+// num1=1000;
+// num2=200;
+// num3=300;
+// switch(true){
+//     case(num1>num2 && num1>num3 ):
+//     console.log("num1 is greater");
+//     break;
+//     case(num2>num1 && num2>num3):
+//     console.log("num2 is greater");
+//     break;
+//     default:
+//         console.log("num3 is greater");
+//         break;
+
+// }
 
 
 // var a=30;
@@ -80,14 +95,14 @@
 //     console.log("number is not present in the given range");
 // }
 
-var a=10;
-switch(true){
-    case (a >= 5 && a <=25):
-        console.log("number is present in the given range");
-        break;
-    default:
-        console.log("number is not present in the given range");
-        break;
+// var a=10;
+// switch(true){
+//     case (a >= 5 && a <=25):
+//         console.log("number is present in the given range");
+//         break;
+//     default:
+//         console.log("number is not present in the given range");
+//         break;
 
 
-}
+// }

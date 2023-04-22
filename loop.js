@@ -45,42 +45,42 @@
 // evennum(1,20);
 
 
-function count(start,end){
-  var even=0;
-  var odd=0;
-  // var array=[];
+// function count(start,end){
+//   var even=0;
+//   var odd=0;
+//   // var array=[];
    
-    for(a=start;a<=end;a++){
-      if(a%2==0){
+//     for(a=start;a<=end;a++){
+//       if(a%2==0){
       
-       even++;
-    //    num++;
-      }
+//        even++;
+//     //    num++;
+//       }
       
-      else{
-        odd++;
-      }
+//       else{
+//         odd++;
+//       }
 
-    }
+//     }
 
-    return [even,odd];
-    // return odd;
-    // console.log("even numbers are:"+even); 
-    // console.log("odd numbers are:"+odd);
+//     return [even,odd];
+//     // return odd;
+//     // console.log("even numbers are:"+even); 
+//     // console.log("odd numbers are:"+odd);
    
-}
-var ans =count(1,11);
-const[even,odd]=count(1,11)
-console.log(even,odd); 
+// }
+// var ans =count(1,11);
+// const[even,odd]=count(1,11)
+// console.log(even,odd); 
 // console.log("odd numbers are:"+odd);
 
 
-// function count(start,end){
-//  for(a=start; a<=end ; a++){
-//     ans=a+(a-1);
-//     console.log(ans);
-//  }
-// }
-// count(1,5);
+// // function count(start,end){
+// //  for(a=start; a<=end ; a++){
+// //     ans=a+(a-1);
+// //     console.log(ans);
+// //  }
+// // }
+// // count(1,5);
 
 
