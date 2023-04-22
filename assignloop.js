@@ -1,4 +1,4 @@
-// Q.1 write a program to print Number,bers from 1 to 10
+// Q.1 write a program to print Numbers from 1 to 10
 
 
 // for(a=1;a<=10;a++){
@@ -19,29 +19,30 @@
 
 
 // Q.3 Write the multiplication table of 5
+
 // function table(b){
 //     for(a=1;a<=10;a++){
 //         console.log(b*a);
 //     }
 // }
-// table(5);
+// table(6);
 
 // Q.4 write a program to find the factorail of any number
 // function fact(num){
 //         var sum=1;
 //         for(a=1;a<=num;a++){
-//              sum*=a;
+//              sum=sum*a;
 //         }
 //         return sum;
 //     }
 //     var ans=fact(5);
-//     console.log("The sum of first 10 natural numbers is: "+ans);
+//     console.log("factorial is: "+ans);
 
 // Q.5 program to find the value of one  number raised to the power of another
 
 // function raised(first,another){
 //     var raise=1;
-//     for(a=1;a<=another;a++){
+//     for(a=1;a<=another;a++){                                           
 //         raise*=first;
 //     }
 //     return raise;
