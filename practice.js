@@ -1,3 +1,5 @@
+
+// //first
 // var array=[34,45,23,5,676,32,34];
 // var target=66;
 // var start=0;
@@ -25,6 +27,9 @@
 // console.log("false")
 // // console.log(sum)
 
+
+
+// //second
 // var start=5768;
 // var end=78656;
 // var sum=0;
@@ -35,6 +40,8 @@
 // }
 // console.log(sum)
 
+
+// //third
 
 // var array=[3,5,79,45,0,-67,23,77,19,78,12]
 // var target=19;
@@ -52,23 +59,16 @@
 //     console.log("not found")
 // }
 
+//fourth
 
-// var length=array.length;//to check length
-// // console.log(length)
-
-// array.push(100);
-
-// console.log(array)
-
-
-// var array=[34,45,567,78,89,34,67,87,34,78,89];
-// // var empty=[];
-// var object={};
-// for(var i=0;i<array.length;i++){
+var array=[34,45,567,78,89,34,67,87,34,78,89];
+// var empty=[];
+var object={};
+for(var i=0;i<array.length;i++){
    
-//     object[i]=array[i];
-// }
-// console.log(object);
+    object[i]=array[i];
+}
+console.log(object);
 
 
 

@@ -69,7 +69,7 @@
 //     // console.log("odd numbers are:"+odd);
    
 // }
-// var ans =count(1,11);
+// // var ans =count(1,11);
 // const[even,odd]=count(1,11)
 // console.log(even,odd); 
 // console.log("odd numbers are:"+odd);
@@ -83,4 +83,22 @@
 // // }
 // // count(1,5);
 
+
+// function count(start,end){
+//     var even=0;
+//     var odd=0;
+//     for(var i=start;i<=end;i++){
+//         if(i%2==0){
+//             even++;
+//         }
+//         else{
+//             odd++
+//         }
+//     }
+//     return[even,odd]
+// }
+// const[even,odd]=count(1,10)
+// console.log(even,odd)
+// var ans[even,odd]=count(1,10);
+// console.log(ans)
 
