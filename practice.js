@@ -61,14 +61,150 @@
 
 //fourth
 
-var array=[34,45,567,78,89,34,67,87,34,78,89];
-// var empty=[];
-var object={};
-for(var i=0;i<array.length;i++){
+// var array=[34,45,567,78,89,34,67,87,34,78,89];
+// // var empty=[];
+// var object={};
+// for(var i=0;i<array.length;i++){
    
-    object[i]=array[i];
+//     object[i]=array[i];
+// }
+// console.log(object);
+
+
+// var array=[1,2,3,4,5,6,7,8,10];
+// function missingnum(array){
+//     for(var i=0;i<array.length-1;i++){
+//         if(array[i]+1!=array[i+1]){
+//             return array[i]+1;
+//         }
+//     }
+// }
+// console.log(missingnum(array));
+
+// var arr=[1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,20]
+// var num=[];
+// function miss(arr){
+//     for(var i=0;i<arr.length-1;i++){
+//         if(arr[i]+1!=arr[i+1]){
+//             num.push(arr[i]+1);
+//         }
+//     }
+//     return(num)
+// }
+// console.log(miss(arr))
+
+
+// var arr=[1,2,3,4,5,6,7,7,8,9,9,10];
+// var value={};
+// var multiple_value=[]
+// function same(arr){
+//     for(var i=0;i<arr.length;i++){
+//         if(value[arr[i]]){
+//             multiple_value.push(arr[i]);
+           
+//         }
+//         else{
+//             value[arr[i]]=arr[i];
+//         }
+        
+//     }
+//     return(multiple_value)
+// }
+// console.log(same(arr))
+
+// var array=[1,2,4,6,50]
+// function minmax(array){
+//     for(var i=0;i<array.length;i++){
+//         var max=array[0];
+//         var min=array[0];
+//         if(array[i]>max){
+//             max=array[i];
+//         }
+//         else if(array[i]<min){
+//             min=array[i]
+//         }
+//     }
+//     return {
+//         "max":max,
+//         "min":min
+//     };
+// }
+// console.log(minmax(array))
+
+
+// var array=[10,5,4,20,15,8,13,9,11];
+
+
+//     function sort(array){
+//         if(array.length<=1){
+//             return array;
+//         }
+
+//         var num=array[0];
+//         var left=[];
+//         var right=[]; 
+//         for(var i=1;i<array.length;i++){
+//             if(array[i]<num){
+//                 left.push(array[i]);
+//             }
+//             else{
+//                 right.push(array[i]);
+//             }
+//         }
+//         return [...sort(left),num, ...sort(right)]
+// }
+// var maxarray=sort(array);
+// // console.log(maxarray);
+// var min=maxarray[0];
+// var maxnum=maxarray.length-1;
+// var max=maxarray[maxnum];
+// console.log(min,max)
+
+
+// var age=19;
+// if(age>=18){
+//     console.log("eligible to vote");
+// }
+// else{
+//     console.log("not eligible")
+// }
+
+
+// var number=2;
+// if(number==1){
+//     console.log("monday");
+// }
+// else if(number==2){
+//     console.log("tuesday");
+// }
+// else if(number==3){
+//     console.log("wednesday");
+// }
+// else if(number==4){
+//     console.log("thursday");
+// }
+// else if(number==5){
+//     console.log("friday");
+// }
+// else if(number==6){
+//     console.log("saturday");
+// }
+// else{
+//     console.log("sunday");
+// }
+
+
+var name="navnath";
+var male;
+var female;
+var gender;
+
+if(gender==male){
+    console.log("hwllo me.",name);
 }
-console.log(object);
+else{
+    console.log("hello ms.",name)
+}
 
 
 

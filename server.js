@@ -38,7 +38,7 @@
 
 var a=123;
 console.log(a)
-var b='ash243@##';
+var b='ash243@##'; 
 console.log(b)
 
 
