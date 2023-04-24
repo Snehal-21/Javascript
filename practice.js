@@ -132,29 +132,29 @@
 // console.log(minmax(array))
 
 
-// var array=[10,5,4,20,15,8,13,9,11];
+var array=[10,5,4,20,15,8,13,9,11];
 
 
-//     function sort(array){
-//         if(array.length<=1){
-//             return array;
-//         }
+    function sort(array){
+        if(array.length<=1){
+            return array;
+        }
 
-//         var num=array[0];
-//         var left=[];
-//         var right=[]; 
-//         for(var i=1;i<array.length;i++){
-//             if(array[i]<num){
-//                 left.push(array[i]);
-//             }
-//             else{
-//                 right.push(array[i]);
-//             }
-//         }
-//         return [...sort(left),num, ...sort(right)]
-// }
-// var maxarray=sort(array);
-// // console.log(maxarray);
+        var num=array[0];
+        var left=[];
+        var right=[]; 
+        for(var i=1;i<array.length;i++){
+            if(array[i]<num){
+                left.push(array[i]);
+            }
+            else{
+                right.push(array[i]);
+            }
+        }
+        return [...sort(left),num, ...sort(right)]
+}
+var maxarray=sort(array);
+console.log(maxarray);
 // var min=maxarray[0];
 // var maxnum=maxarray.length-1;
 // var max=maxarray[maxnum];
@@ -194,26 +194,100 @@
 // }
 
 
-var name="navnath";
-var male;
-var female;
-var gender;
+// var name="navnath";
+// var male;
+// var female;
+// var gender;
 
-if(gender==male){
-    console.log("hwllo me.",name);
-}
-else{
-    console.log("hello ms.",name)
-}
+// if(gender==male){
+//     console.log("hwllo me.",name);
+// }
+// else{
+//     console.log("hello ms.",name)
+// }
+
+// var char='character';
+// if(char>='a' && char<='z' || char>='A' && char<='Z'){
+//     console.log("letter")
+// }
+// else if(char>=0 && char <=9){
+//     console.log("digit")
+// }
 
 
+// var num=21;
+// if(num%3==0){
+//     console.log(num,"is multiple of 3")
+// }
+// else if(num%5==0){
+//     console.log(num,"is multiple of 5")
+// }
 
 
+// var num1=10;
+// var num2=13;
+
+// var sum=num1+num2;
+// if(sum%2==0){
+//     console.log("sum of",num1,"and",num2,"is even")
+// }
+// else{
+//     console.log("sum of",num1,"and",num2,"is odd")
+// }
 
 
+// var celcious=32;
+// var fahrenheit=(celcious*9/5)+32;
+// console.log(fahrenheit)
 
 
+// var num1=13;
+// var num2=10;
+// var num3=25;
+// var large;
+// var small;
+// if(num1>num2 && num1>num3){
+//     large=num1;
+// }
+// else if(num2>num1 && num2>num3){
+//     large=num2
+// }
+// else{
+//     large=num3;
+// }
+// console.log("large",large)
 
+// if(num1<num2 && num1<num3){
+//     small=num1;
+// }
+// else if(num2<num1 && num2<num3){
+//     small=num2
+// }
+// else{
+//     small=num3;
+// }
+// console.log("small",small)
+
+// var num1=50;
+// var num2=40;
+// var sum=num1+num2;
+// if(sum>100){
+//     console.log("sum is greater than 100")
+// }
+// else{
+//     console.log("sum is less than 100")
+// }
+
+// var char='1';
+// if(char=='a'){
+//     console.log("lowercase")
+// }
+// else if(char=='A'){
+//     console.log("uppercase")
+// }
+// else{
+//     console.log("neither")
+// }
 
 
 
