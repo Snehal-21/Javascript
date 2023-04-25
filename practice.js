@@ -132,29 +132,29 @@
 // console.log(minmax(array))
 
 
-var array=[10,5,4,20,15,8,13,9,11];
+// var array=[10,5,4,20,15,8,13,9,11];
 
 
-    function sort(array){
-        if(array.length<=1){
-            return array;
-        }
+//     function sort(array){
+//         if(array.length<=1){
+//             return array;
+//         }
 
-        var num=array[0];
-        var left=[];
-        var right=[]; 
-        for(var i=1;i<array.length;i++){
-            if(array[i]<num){
-                left.push(array[i]);
-            }
-            else{
-                right.push(array[i]);
-            }
-        }
-        return [...sort(left),num, ...sort(right)]
-}
-var maxarray=sort(array);
-console.log(maxarray);
+//         var num=array[0];
+//         var left=[];
+//         var right=[]; 
+//         for(var i=1;i<array.length;i++){
+//             if(array[i]<num){
+//                 left.push(array[i]);
+//             }
+//             else{
+//                 right.push(array[i]);
+//             }
+//         }
+//         return [...sort(left),num, ...sort(right)]
+// }
+// var maxarray=sort(array);
+// console.log(maxarray);
 // var min=maxarray[0];
 // var maxnum=maxarray.length-1;
 // var max=maxarray[maxnum];
@@ -278,24 +278,114 @@ console.log(maxarray);
 //     console.log("sum is less than 100")
 // }
 
-// var char='1';
-// if(char=='a'){
+
+// var char='1'
+// if(char>='a' && char<="z"){
 //     console.log("lowercase")
 // }
-// else if(char=='A'){
+// else if(char>='A' && char<="Z"){
 //     console.log("uppercase")
 // }
 // else{
 //     console.log("neither")
 // }
 
+// var year=1902;
+// if((year%4==0 && year%100!=0) || year%400==0){
+//     console.log("leap")
+// }
+// else{
+//     console.log("not a leap")
+// }
+
+// 1. Two sum
+
+// var array=[2,8,11,15];
+// var target=9;
+
+// for(var i=0;i<array.length;i++){
+//    for(var j=array.length-1;j>0;j--){
+//     if(array[i]+array[j]==target){
+//         console.log(target,"found");
+//         return;
+//     }
+   
+//    }
+   
+// }
+// console.log("not found")
+
+// 2.remove duplicates from sorted array
+
+// var array=[1,1,2,2,3,4,4];
+// var newarray=[];
+// var mainarray=[];
+// for(var i=0;i<array.length;i++){
+//     if(array[i]==array[i+1]){
+//        newarray.push(array[i]);
+//     }
+//     else{
+//         mainarray.push(array[i])
+//     }
+// }
+// // console.log(array);
+// console.log(mainarray)
+
+// 3.remove Element;
+// var array=[1,3,5,12,45,7,8]
+// var target=12;
+// var newarray=[];
+// for(var i=0;i<array.length;i++){
+//     if(array[i]!=target){
+//         newarray.push(array[i])
+//     }
+// }
+// console.log(newarray)
 
 
 
+// 4.search insert position
+
+// var array=[1,3,5,2,6];
+// var target=2;
+// for(var i=0;i<array.length;i++){
+//     if(array[i]==target){
+//         console.log("index is :",i)
+//     }
+// }
+
+// 5.plus one
+
+// var array=[1,2,4];
+// var newarray=[];
+// var end=array.length-1;
+// // console.log(end)
+// for(var i=0;i<=end;i++){
+//     if(array[i]!==array[end]){
+//         newarray.push(array[i])
+//     }
+//     else{
+//         newarray.push(array[i]+1)
+//     }
+// }
+// console.log(newarray)
 
 
+// 6.merge sorted arrays;
 
+// var a=[1,2,3];
+// var b=[4,5,6]
+// var c=[...a, ...b];
+// console.log(c)
 
+// 7.single Number;
+var array=[1,2,1,2,3];
+var newarray=[];
+for(var i=0;i<array.length;i++){
+    for(var j=array.length;j>0;j--){
+        
+    }
+}
 
 
 
