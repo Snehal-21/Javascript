@@ -373,27 +373,141 @@
 
 // 6.merge sorted arrays;
 
-// var a=[1,2,3];
+// var a=[1,2,3,];
 // var b=[4,5,6]
 // var c=[...a, ...b];
 // console.log(c)
 
+
+// var a=[1,2,3,0,0,0];
+// var b=[4,5,6];
+// var newarray=[];
+// var c=[];
+// for(var i=0;i<a.length;i++){
+//     if(a[i]!=0){
+//         newarray.push(a[i]);
+
+//     }
+// }
+// c=[...newarray, ...b];
+// console.log(c)
+
+
 // 7.single Number;
-var array=[1,2,1,2,3];
-var newarray=[];
+// var array=[1,2,1,2,3];
+// var newarray=[];
+// var a;
+// for(var i=0;i<array.length;i++){
+//  if(array[i]==array[i+1]){
+//     newarray.push(array[i]);
+//     // newarray.push(array[i+1])
+//  }
+//  else{
+//     a=array[i]
+//  }
+// }
+// console.log(a);
+
+// 8.majority Element;
+
+// var array=[1,2,2,2,4,2];
+// var min_array=[];
+// // var maj_array=[];
+// for(var i=0;i<array.length;i++){
+//     if(array[i]==array[i+1]){
+//          min_array.push(array[i]);
+//          min_array.push(array[i+1]);
+//     }
+// }
+
+// console.log(min_array);
+// if(min_array.length>=array.length/2){
+//  console.log("majority elments in the array",min_array[0])
+// }
+// else{
+//     console.log("majority Elements are not exists")
+// }
+
+
+// 9.contains duplicate;
+
+// var array=[1,2,6,5,9];
+// var flag=false;
+// for(var i=0;i<array.length;i++){
+//     for(var j=array.length-1;j>i;j--){
+//         if(array[i]==array[j]){
+//             flag=true;
+//             break;
+//             }
+//             }
+//     }
+// if(flag==true){
+//     console.log("duplicate")
+// }
+// else{
+//     console.log(" not duplicate")
+// }
+
+// 10.plus one--right;
+
+// var array=[1,2,9];
+// var str="";
+// var sum;
+// var final=[];
+// var sumarray=[];
+
+// for(var i=0;i<array.length;i++){
+//     str+=array[i].toString();
+// }
+// var num=parseInt(str);
+
+
+// num=num+1;
+// var numstr=num.toString();
+// // console.log(typeof(numstr))
+
+// for(var i=0;i<numstr.length;i++){
+//    final.push(numstr[i]);
+// }
+
+// // console.log(final);
+// for(var i=0;i<final.length;i++){
+//     sum=parseInt(final[i])
+//     // console.log(sum)
+//     sumarray.push(sum);
+// }
+// console.log(sumarray)
+
+// 11.rever a Number;
+
+// var num=12345;
+// var reversed=0;
+// for( ; num!=0;num=Math.floor(num/10)){
+//     reversed=reversed*10 + (num%10)
+// }
+// console.log(reversed)
+
+// 12.contains duplicate ||
+
+var array=[1,2,3,1,2,3];
+var k=2;
+var flag;
 for(var i=0;i<array.length;i++){
-    for(var j=array.length;j>0;j--){
-        
+    for(var j=array.length-1;j>=i;j--){
+        if(array[i]==array[j] && (i-j<=k || j-i<=k) ){
+            flag=true;
+        }
+        else{
+            flag=false;
+        }
     }
 }
-
-
-
-
-
-
-
-
+if(flag){
+    console.log("true")
+}
+else{
+    console.log("false")
+}
 
 
 
