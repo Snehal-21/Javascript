@@ -489,29 +489,53 @@
 
 // 12.contains duplicate ||
 
-var array=[1,2,3,1,2,3];
-var k=2;
-var flag;
+// var array=[1,2,3,1];
+// var k=3;
+// var flag;
+// for(var i=0;i<array.length;i++){
+//     for(var j=array.length-1;j>=0;j--){
+//         if(array[i]==array[j] && (-j<=k || j-i<=k) ){
+//             flag=true;
+//         }
+//         else{
+//             flag=false;
+//         }
+//     }
+// }
+// if(flag){
+//     console.log("true")
+// }
+// else{
+//     console.log("false")
+// }
+
+// 13. summary TimeRanges;
+
+var array=[0,1,2,4,5,7];
+ var str1="";
+ var str2="";
+ var str3="";
+ var a=[];
+ var b=[];
+ var c=[];
+ var newarray=[];
 for(var i=0;i<array.length;i++){
-    for(var j=array.length-1;j>=i;j--){
-        if(array[i]==array[j] && (i-j<=k || j-i<=k) ){
-            flag=true;
-        }
-        else{
-            flag=false;
-        }
+    if(array[i]>0 && array[i]<=2){
+        str1+=array[i];
+        a.push(str1);
+    }
+    else if(array[i]>=4 && array[i]<=5){
+        str2+=array[i];
+        b.push(str2);
+    }
+    else if(array[i]>=6 && array[i]<=7){
+        str3+=array[i];
+        c.push(str3);
     }
 }
-if(flag){
-    console.log("true")
-}
-else{
-    console.log("false")
-}
 
-
-
-
+newarray=[...a ,...b, ...c];
+console.log(newarray)
 
 
 
