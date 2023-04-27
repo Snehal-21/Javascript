@@ -511,40 +511,123 @@
 
 // 13. summary TimeRanges;
 
-var array=[0,1,2,4,5,7];
- var str1="";
- var str2="";
- var str3="";
- var a=[];
- var b=[];
- var c=[];
- var newarray=[];
-for(var i=0;i<array.length;i++){
-    if(array[i]>0 && array[i]<=2){
-        str1+=array[i];
-        a.push(str1);
-    }
-    else if(array[i]>=4 && array[i]<=5){
-        str2+=array[i];
-        b.push(str2);
-    }
-    else if(array[i]>=6 && array[i]<=7){
-        str3+=array[i];
-        c.push(str3);
+// var array=[0,1,2,4,5,7];
+//  var str1="";
+//  var str2="";
+//  var str3="";
+//  var a=[];
+//  var b=[];
+//  var c=[];
+//  var newarray=[];
+// for(var i=0;i<array.length;i++){
+//     if(array[i]>0 && array[i]<=2){
+//         str1="0-2";
+//        a.push(str1)
+//     }
+//     else if(array[i]>=4 && array[i]<=5){
+//         str2="4-5";
+//         b.push(str2);
+//     }
+//     else if(array[i]>=6 && array[i]<=7){
+//         str3+="6-7";
+//         c.push(str3);
+//     }
+// }
+
+// newarray=[...a ,...b, ...c];
+// // console.log(newarray);
+// var final=[];
+// var F=[];
+// for(var i=0;i<newarray.length;i++){
+//     if(newarray[i]==newarray[i+1]){
+//         final.push(newarray[i]);
+//     }
+//     else{
+//         F.push(newarray[i]);
+//     }
+//     }
+
+// // console.log(final);
+// console.log(F);
+
+// 14.pascals traingle;
+
+
+// var n=4;
+// function pascals(n){
+//     var a=[];
+//     for(var i=0;i<n;i++){
+//         a[i]=[];
+//         for(var j=0;j<=i;j++){
+//             if(j==0 || j==i){
+//                 a[i][j]=1;
+//             }
+//             else{
+//                 a[i][j]=a[i-1][j-1] + a[i-1][j];
+//             }
+//         }
+//     }
+//     return a;
+//     // console.log(a)
+// }
+
+// var ans=pascals(n);
+// console.log(ans)
+
+// 15.pascals traingle 2;
+
+// var n=4;
+// function pascalstraingle(n){
+//     var a=[]
+//     for(var i=0;i<n;i++){
+//         a[i]=[];
+//         for(var j=0;j<=i;j++){
+//             if(j==0 || j==i){
+//                 a[i][j]=1;
+//             }
+//             else{
+//                 a[i][j]=a[i-1][j-1] + a[i-1][j]
+//             }
+//         }
+//     }
+//     return a[i-1]
+// }
+
+// var final=pascalstraingle(n);
+// console.log(final)
+
+
+// 16.best time to buy ans sell stock;
+
+// var array=[7,6,4,3,1];
+// var minprofit=array[0]
+// var maxprofit=0;
+// for(var i=1;i<array.length;i++){
+//     if(array[i]<minprofit){
+//         minprofit=array[i]
+//         // console.log(i)
+//     }
+//     else{
+//         var cureentprofit=array[i]-minprofit;
+//         if(cureentprofit>maxprofit){
+//             maxprofit=cureentprofit;
+//         }
+//     }
+        
+//     }
+
+// console.log(maxprofit);
+
+// 17.missing Number;
+
+var nums=[3,0,1];
+var length=nums.length;
+// console.log(length);
+for(var i=0;i<length;i++){
+    if(i==){
+        console.log(nums[i])
     }
 }
-
-newarray=[...a ,...b, ...c];
-console.log(newarray)
-
-
-
-
-
-
-
-
-
 
 
 
