@@ -93,25 +93,74 @@ var studentlist=["snehal","anu","mayuri","madhuri","punam","swaraj"];
 // console.log("greter number is: "+findmax(arr))
 
 
-function findmin(arr){
-    // console.log(arr)
-    // console.log(arr.length)
-    var min=arr[0];
-    // if(arr[1]>max){
-    //     max=arr[1];
-    // }
-    for(a=1;a<arr.length;a++){
-        if(arr[a]<min){
-                min=arr[a];
-            }
-    }
-    return min;
-    }
-    var arr=[6544,32323,54,6,87];
-    console.log("smallest number is: "+findmin(arr))
+// function findmin(arr){
+//     // console.log(arr)
+//     // console.log(arr.length)
+//     var min=arr[0];
+//     // if(arr[1]>max){
+//     //     max=arr[1];
+//     // }
+//     for(a=1;a<arr.length;a++){
+//         if(arr[a]<min){
+//                 min=arr[a];
+//             }
+//     }
+//     return min;
+//     }
+//     var arr=[6544,32323,54,6,87];
+//     console.log("smallest number is: "+findmin(arr))
 
 // function popup(){
 //     console.log("successful")
 // alert("clicked succesfully");
 
 // }
+
+
+// var array=[34,45,65,23,10,676,34,39,66];
+// var target=66;
+// var flag;
+// for(var i=0;i<array.length;i++){
+//     if(array[i]==target){
+//         flag=true;
+//     }
+//     else{
+//         flag=false;
+//     }
+// }
+// if(flag){
+//     console.log("found")
+// }
+// else{
+//     console.log("not found")
+// }
+
+
+// var start=5799;
+// var end=78659;
+// var sum=0;
+// for(var i=start;i<end;i=i+3){
+//     sum=sum+i;
+// }
+// console.log(sum)
+
+var number=19;
+var index;
+var array=[3,5,79,45,0,-67,23,77,19,78,12];
+for(var i=0;i<array.length;i++){
+    if(array[i]==number){
+        index=i;
+    }
+}
+console.log(index);
+for(var i=0;i<=10;i++){
+    console.log(index*i)
+}
+
+
+// var array=[35,45,567,78,89,34,67,87,34,78,89];
+// var object={};
+// for(var i=0;i<array.length;i++){
+//     object[i]=array[i]
+//     }
+//     console.log(object)

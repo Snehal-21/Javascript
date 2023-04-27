@@ -620,14 +620,7 @@
 
 // 17.missing Number;
 
-var nums=[3,0,1];
-var length=nums.length;
-// console.log(length);
-for(var i=0;i<length;i++){
-    if(i==){
-        console.log(nums[i])
-    }
-}
+
 
 
 
