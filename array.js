@@ -11,7 +11,7 @@
 // console.log(array);
 
 
-var studentlist=["snehal","anu","mayuri","madhuri","punam","swaraj"];
+var studentlist = ["snehal", "anu", "mayuri", "madhuri", "punam", "swaraj"];
 // console.log(studentlist);
 // console.log(studentlist.length)
 // for(var a=0; a<studentlist.length;a++){
@@ -144,18 +144,18 @@ var studentlist=["snehal","anu","mayuri","madhuri","punam","swaraj"];
 // }
 // console.log(sum)
 
-var number=19;
-var index;
-var array=[3,5,79,45,0,-67,23,77,19,78,12];
-for(var i=0;i<array.length;i++){
-    if(array[i]==number){
-        index=i;
-    }
-}
-console.log(index);
-for(var i=0;i<=10;i++){
-    console.log(index*i)
-}
+// var number=19;
+// var index;
+// var array=[3,5,79,45,0,-67,23,77,19,78,12];
+// for(var i=0;i<array.length;i++){
+//     if(array[i]==number){
+//         index=i;
+//     }
+// }
+// console.log(index);
+// for(var i=0;i<=10;i++){
+//     console.log(index*i)
+// }
 
 
 // var array=[35,45,567,78,89,34,67,87,34,78,89];
@@ -164,3 +164,110 @@ for(var i=0;i<=10;i++){
 //     object[i]=array[i]
 //     }
 //     console.log(object)
+
+
+// var name="a";
+// var a=2;
+// var b=3;
+// var c=0;
+// function add(name,a,b){
+//     c=a+b;
+//     console.log(name,"=",c);
+// }
+// add(name,a,b);
+
+
+// function add(name,arr){
+//     var name="a";
+//     var arr=[2,4,6,9,11,13];
+//     var sum=0;
+//     for(var i=0;i<arr.length;i=i+2){
+//         sum=sum+arr[i];
+//     }
+//     console.log(`name=${sum}`);
+//     console.log(typeof(`name=${sum}`));
+// }
+// add(name,arr);
+
+// function x(...a){
+//     // var sum=0;
+//     for(var i=0;i<a.length;i++){
+//         if(a[i]%2==0){
+//             console.log(a[i]);
+//         }
+//     }
+//     console.log(a);
+// }
+// x(1,2,3,4,5,6,7,8,9,3,45);
+
+// function miss(...a){
+//     for(var i=0;i<a.length;i++){
+//         if(a[i]==a[i+1]){
+//             return 0;
+//         }
+//         else{
+
+//         }
+//     }
+// }
+// miss(1,2,4,6);
+
+// function odd(...x){
+//     for(var i=0;i<x.length;i++){
+//         if(x[i]%2!==0 && x[i]%5==0){
+//             console.log(x[i]);
+//         }
+//     }
+// }
+// odd(1,2,3,4,5,6,7,8,9,10,15,20,25);
+
+var a = 1;
+var flag;
+if (a == 1) {
+    console.log(a, "is neither a prime nor a composite number");
+}
+else if(a>1){
+    for(var i=2;i<=a;i++){
+        if(a%i==0){
+            flag=true;
+            // console.log(i,"is a prime number");
+        }
+        else{
+            flag=false;
+            // console.log(i,"is not a prime number");
+        }
+    }
+}
+if(flag){
+    console.log(i,"is a prime number");
+}
+else{
+    console.log(i,"is not a prime number");
+}
+
+// function prime(a){
+//     // var a=31;
+//       var flag;
+//     if(a==1){
+//         console.log(a,"is neither a prime nor composite");
+//     }
+//     else if(a>1){
+      
+//         for(var i=2;i<a;i++){
+//             if(a%i==0){
+//                 flag=true;
+//             }
+//             else{
+//                 flag=false;
+//             }
+//         }
+//     }
+//         if(flag==true){
+//             console.log(a,"is a prime number");
+//         }
+//         else{
+//             console.log(a,"is a not prime number");
+//         }
+    
+// }
+// prime(31);
