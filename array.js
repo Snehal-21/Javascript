@@ -221,53 +221,49 @@ var studentlist = ["snehal", "anu", "mayuri", "madhuri", "punam", "swaraj"];
 // }
 // odd(1,2,3,4,5,6,7,8,9,10,15,20,25);
 
-var a = 1;
-var flag;
-if (a == 1) {
-    console.log(a, "is neither a prime nor a composite number");
-}
-else if(a>1){
-    for(var i=2;i<=a;i++){
-        if(a%i==0){
-            flag=true;
-            // console.log(i,"is a prime number");
-        }
-        else{
-            flag=false;
-            // console.log(i,"is not a prime number");
-        }
-    }
-}
-if(flag){
-    console.log(i,"is a prime number");
-}
-else{
-    console.log(i,"is not a prime number");
-}
-
-// function prime(a){
-//     // var a=31;
-//       var flag;
-//     if(a==1){
-//         console.log(a,"is neither a prime nor composite");
+// function prime(number){
+//     if(number <=1){
+//         console.log("0 and 1 are not prime numbers!")
 //     }
-//     else if(a>1){
-      
-//         for(var i=2;i<a;i++){
-//             if(a%i==0){
-//                 flag=true;
-//             }
-//             else{
-//                 flag=false;
-//             }
-//         }
-//     }
-//         if(flag==true){
-//             console.log(a,"is a prime number");
+//     for(var i=2;i<=number;i++){
+//         if(number%i==0){
+//             console.log(number,"is not a prime number!");
+//             return;
 //         }
 //         else{
-//             console.log(a,"is a not prime number");
+//             console.log(number,"is a prime number!")
+//             return;
 //         }
-    
+//     }
+   
 // }
-// prime(31);
+// prime(61);
+
+
+// function prime(number){
+//     if(number<=1){
+//         console.log("0 and 1 are not prime numbers!")
+//     }
+//     for(var i=2;i<=number;i++){
+//         if(number%i==0){
+//             console.log(number,"is not a prime number!");
+//             return
+//         }else{
+//             console.log(number,"is a prime number");
+//             return
+//         }
+//     }
+// }
+// prime(61);
+
+var array=[];
+var row=5;
+var col=3;
+var h=0;
+for(var i=0;i<row;i++){
+    array[i]=[];
+    for(var j=0;j<col;j++){
+        array[i][j]=h++;
+    }
+}
+console.log(array);
