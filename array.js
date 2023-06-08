@@ -256,14 +256,41 @@ var studentlist = ["snehal", "anu", "mayuri", "madhuri", "punam", "swaraj"];
 // }
 // prime(61);
 
-var array=[];
-var row=5;
-var col=3;
-var h=0;
-for(var i=0;i<row;i++){
-    array[i]=[];
-    for(var j=0;j<col;j++){
-        array[i][j]=h++;
-    }
+// var array=[];
+// var row=5;
+// var col=3;
+// var h=0;
+// for(var i=0;i<row;i++){
+//     array[i]=[];
+//     for(var j=0;j<col;j++){
+//         array[i][j]=h++;
+//     }
+// }
+// console.log(array);
+
+// var array=[[1,2,3],[4,5,6],[7,8,9]];
+// for (var i=0;i<array.length;i++){
+//     for (var j=0;j<array[i].length;j++){
+//         console.log(array[2][1]);
+//         return;
+//     }
+// }
+
+// var a=4;
+// var b=5;
+// var array=new Array(a);
+// h=0;
+// for(var i=0;i<a;i++){
+//     array[i]=new Array(b);
+// }
+// console.log(array);
+
+function modify(arr,callback){
+    arr.push(100);
+    arr.push(24567);
+    callback();
 }
-console.log(array);
+var arr=[1,2,3,4,5];
+modify(arr,function(){
+    console.log("modified array",arr);
+})
