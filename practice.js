@@ -535,7 +535,7 @@
 // }
 
 // newarray=[...a ,...b, ...c];
-// // console.log(newarray);
+// console.log(newarray);
 // var final=[];
 // var F=[];
 // for(var i=0;i<newarray.length;i++){
@@ -618,7 +618,25 @@
 
 // console.log(maxprofit);
 
-// 17.missing Number;
+var nums=[0];
+var array1=[];
+var array2=[];
+var array3=[];
+for(var i=0;i<nums.length;i++){
+    if(nums[i]==0){
+        array1.push(nums[i]);
+
+    }
+    else{
+        array2.push(nums[i]);
+    }
+}
+array3=[...array2,...array1];
+console.log(array3);
+
+
+
+
 
 
 
