@@ -617,22 +617,51 @@
 //     }
 
 // console.log(maxprofit);
+//Q.MOve zeroes
+// var nums=[0];
+// var array1=[];
+// var array2=[];
+// var array3=[];
+// for(var i=0;i<nums.length;i++){
+//     if(nums[i]==0){
+//         array1.push(nums[i]);
 
-var nums=[0];
-var array1=[];
-var array2=[];
-var array3=[];
-for(var i=0;i<nums.length;i++){
-    if(nums[i]==0){
-        array1.push(nums[i]);
+//     }
+//     else{
+//         array2.push(nums[i]);
+//     }
+// }
+// array3=[...array2,...array1];
+// console.log(array3);
 
-    }
-    else{
-        array2.push(nums[i]);
-    }
-}
-array3=[...array2,...array1];
-console.log(array3);
+//Addition in the same array
+
+// var array=[1,2,3,4,5,6,7,8,9,10];
+// var sum=0;
+// for(var i=0;i<array.length;i++){
+//     sum+=array[i];
+//     array[i]=sum;
+
+// }
+// console.log(array);
+
+//move zeroes
+
+// var array=[0,1,0,3,12];
+// var index=0;
+// for(var i=0;i<array.length;i++){
+//     if(array[i]!=0){
+//         array[index]=array[i];
+//         index++;
+//     }
+// }
+// for(var i=index;i<array.length;i++){
+//     array[i]=0;
+// }
+// console.log(array);
+
+
+
 
 
 
