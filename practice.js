@@ -660,18 +660,154 @@
 // }
 // console.log(array);
 
+//Count the number of inversions in an array. An inversion occurs when two elements in the array are out of order
+// let arr = [4, 5, 1, 2, 3]
+// function count(arr) {
+//     let inv = 0;
+//     for (var i = 0; i < arr.length - 1; i++) {
+//         for (var j = i + 1; j < arr.length; j++) {
+//             if (arr[i] > arr[j]) {
+//                 inv = inv + 1;
+//             }
+//         }
+//     }
+//     console.log("no of inversions are : ", inv)
+// }
+// count(arr);
+
+// Given an array representing the heights of bars, calculate the total amount of water that can be trapped between the bars.
+// let arr=[0,1,0,2,1,0,3,2,1,2,1]
+// function height(arr) {
+//     let totalwater = 0;
+//     for (let i = 1; i < arr.length - 1; i++) {
+//         var left = 0;
+//         var right = 0;
+
+//         for (let j = i; j < arr.length; j++) {
+//             if (arr[j] > left) {
+//                 left = arr[j];
+//             }
+//         }
+//         for(let j=i+1;j<arr.length;j++){
+//             if(arr[j]>right){
+//                 right=arr[j]
+//             }
+//         }
+//         var m_height=min(left,right);
+//         if(m_height>arr[i]){
+//             totalwater+=m_height-arr[i]
+//         }
+//     }
+//     console.log("total water is: ",totalwater)
+// }
+// height(arr);
+
+//1.Given a positive integer n, find the sum of all integers in the range [1, n] inclusive that are divisible by 3, 5, or 7
+// let first=1;
+// let last=7
+
+// function range(first,last){
+//     let sum=0;
+//     for (var i=first;i<=last;i++){
+//         if(i%3==0 || i%5==0 || i%7==0){
+//             sum=sum+i;
+//         }
+//     }
+//     console.log("sum is:",sum)
+// }
+// range(1,7);
+
+//2.Return the largest prime number that lies on at least one of the diagonals of nums. In case, no prime is present on any of the diagonals, return 0.
+// var nums = [[1,2,3],[5,17,7],[9,10,11]];
+// let num;
+// let primearr=[];
+// function prime(nums){
+    
+//     for(var i=0;i<nums.length;i++){
+//         for(var j=0;j<nums[i].length;j++){
+//             if(nums[i][j]%1==0 && nums[i][j]%nums[i][j]==0){
+//                 primearr.push(nums[i][j]);
+//                 // console.log(primearr);
+//             }
+//             else{
+//                num=0;
+//             }
+//         }
+//     }
+//     var mx=primearr[0];
+//     for(var i=1;i<primearr.length;i++){
+//         if(primearr[i]>mx){
+//             mx=primearr[i];
+//             // console.log(mx)
+//         }
+        
+//     }
+//    console.log("prime no is:",mx)
+// }
+// prime(nums);
 
 
 
+//Given a m x n binary matrix mat, find the 0-indexed position of the row that contains the maximum count of ones, and the number of ones in that row.
+// var nums=[[0,0,0],[0,1,1]];
+// function ones(nums){
+//     let arr=[0,0];
+//     for (var i=0;i<nums.length;i++){
+//         let count=0;
+//         for(var j=0;j<nums[i].length;j++){
+//             if(nums[i][j]==1){
+//                 count++;
+//             }
+//         }
+//         if(count>arr[1]){
+//             arr[0]=i;
+//             arr[1]=count;
+//         }
+//     }
+//     console.log("count array is:",arr);
+// }
+// ones(nums);
 
+//Given two arrays of unique digits nums1 and nums2, return the smallest number that contains at least one digit from each array.
 
+// let nums1=[5,7];
+// let nums2=[4,1,3];
+// function unique(nums1,nums2){
+//     var min1=nums1[0];
+//     var min2=nums2[0];
+//     for(var i=0;i<nums1.length;i++){
+//         if(nums1[i]<min1){
+//             min1=nums1[i];
+//         }
+//     }
+//     for(var i=0;i<nums2.length;i++){
+//         if(nums2[i]<min2){
+//             min2=nums2[i];
+//         }
+//     }
+//     let n1=[min1 ,min2];
+//     let n2=[min2,min1];
+//     let final;
+//     if(n1<n2){
+//         final=n1;
+//     }else{
+//         final=n2;
+//     }
+//     console.log("unique digit is:",final[0],final[1])
+// }
+// unique(nums1,nums2);
 
+//A sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each of the words consists of only uppercase and lowercase English letters (no punctuation)
 
+// let s="What is the solution to this problem";
+// var k=4;
+// var string=s.split(" ");
+// // console.log(string.length)
 
-
-
-
-
+// if(string.length=k){
+//     var final=string.join(' ');
+//     console.log("trucated sentence is:",final)
+// }
 
 
 
