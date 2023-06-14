@@ -748,7 +748,7 @@
 
 
 
-//Given a m x n binary matrix mat, find the 0-indexed position of the row that contains the maximum count of ones, and the number of ones in that row.
+//3.Given a m x n binary matrix mat, find the 0-indexed position of the row that contains the maximum count of ones, and the number of ones in that row.
 // var nums=[[0,0,0],[0,1,1]];
 // function ones(nums){
 //     let arr=[0,0];
@@ -768,7 +768,7 @@
 // }
 // ones(nums);
 
-//Given two arrays of unique digits nums1 and nums2, return the smallest number that contains at least one digit from each array.
+//4.Given two arrays of unique digits nums1 and nums2, return the smallest number that contains at least one digit from each array.
 
 // let nums1=[5,7];
 // let nums2=[4,1,3];
@@ -797,30 +797,77 @@
 // }
 // unique(nums1,nums2);
 
-//A sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each of the words consists of only uppercase and lowercase English letters (no punctuation)
+//5.A sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each of the words consists of only uppercase and lowercase English letters (no punctuation)
 
 // let s="What is the solution to this problem";
 // var k=4;
 // var string=s.split(" ");
-// // console.log(string.length)
+// console.log(string.length)
 
 // if(string.length=k){
 //     var final=string.join(' ');
-//     console.log("trucated sentence is:",final)
+// var finalstr=final.toString();
+//     console.log("trucated sentence is:",`"${finalstr}"`)
 // }
 
 
+//6.Given a binary array nums, return the maximum number of consecutive 1's in the array.
+
+// let nums=[1,1,1,1,0,1,1,1];
+// let count=0;
+// let countarray=[];
+// for(var i=0;i<nums.length;i++){
+//     if(nums[i]==1){
+//         count++;
+//         countarray.push(count);
+//     }else{
+//         count=0;
+//     }
+// }
+
+// var max=countarray[0];
+// for(var i=0;i<countarray.length;i++){
+//     if(countarray[i]>max){
+//         max=countarray[i]
+//     }
+// }
+// console.log("maximumnumber of consecutive ones is:",max)
+
+//7.Given an n x n binary matrix image, flip the image horizontally, then invert it, and return the resulting image
+
+
+// let image=[[1,1,0],[1,0,1],[0,0,0]];
+// var reverse=[];
+// for(var i=0;i<image.length;i++){
+//     for(var j=image[i].length-1;j>=0;j--){
+//         reverse.push(image[i][j]);
+//     }
+// }
+// console.log("reverse is:",reverse);
+
+// for(var i=0;i<reverse.length;i++){
+//     if(reverse[i]==0){
+//         reverse[i]=1;
+//     }
+//     else{
+//         reverse[i]=0;
+//     }
+// }
+// console.log("invert is:",reverse)
 
 
 
 
 
-
-
-
-
-
-
+// var len=3;
+// var final=[];
+// for (var i=0;i<reverse.length;i++){
+//     for(var j=0;j<3;j++){
+//         final.push(reverse[i][j])
+        
+//     }
+// }
+// console.log(final,"final")
 
 
 
