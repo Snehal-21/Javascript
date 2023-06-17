@@ -869,11 +869,25 @@
 // }
 // console.log(final,"final")
 
+let a=[1,1,1,2,2,3,3,3,3,4,4,5,5,5,5,5,6];
 
+// let arr=[];
+// for(var i=0;i<a.length;i++){
+//     if(a[i]!=a[i+1]){
+//         arr.push(a[i]);
+        
+//     }
+   
+// }
+// console.log(arr);
 
+for(var i=0;i<a.length;i++){
+    if(a[i]==a[i+1]){
+        a.splice(a[i],2);
+    }
+}
 
-
-
+console.log(a);
 
 
 
