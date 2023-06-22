@@ -132,29 +132,29 @@
 // console.log(minmax(array))
 
 
-// var array=[10,5,4,20,15,8,13,9,11];
+var array=[10,5,4,20,15,8,13,9,11];
 
 
-//     function sort(array){
-//         if(array.length<=1){
-//             return array;
-//         }
+    function sort(array){
+        if(array.length<=1){
+            return array;
+        }
 
-//         var num=array[0];
-//         var left=[];
-//         var right=[]; 
-//         for(var i=1;i<array.length;i++){
-//             if(array[i]<num){
-//                 left.push(array[i]);
-//             }
-//             else{
-//                 right.push(array[i]);
-//             }
-//         }
-//         return [...sort(left),num, ...sort(right)]
-// }
-// var maxarray=sort(array);
-// console.log(maxarray);
+        var num=array[0];
+        var left=[];
+        var right=[]; 
+        for(var i=1;i<array.length;i++){
+            if(array[i]<num){
+                left.push(array[i]);
+            }
+            else{
+                right.push(array[i]);
+            }
+        }
+        return [...sort(left),num, ...sort(right)]
+}
+var maxarray=sort(array);
+console.log(maxarray);
 // var min=maxarray[0];
 // var maxnum=maxarray.length-1;
 // var max=maxarray[maxnum];
@@ -881,13 +881,13 @@ let a=[1,1,1,2,2,3,3,3,3,4,4,5,5,5,5,5,6];
 // }
 // console.log(arr);
 
-for(var i=0;i<a.length;i++){
-    if(a[i]==a[i+1]){
-        a.splice(a[i],2);
-    }
-}
+// for(var i=0;i<a.length;i++){
+//     if(a[i]==a[i+1]){
+//         a.splice(a[i],2);
+//     }
+// }
 
-console.log(a);
+// console.log(a);
 
 
 

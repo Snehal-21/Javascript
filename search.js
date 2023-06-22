@@ -24,13 +24,38 @@
 
 //bubble sort
 
-var a=[5,2,3,4,6];
+// var a=[5,2,3,4,6];
 
-for(var i=0;i<a.length;i++){
-    if(a[i]>a[i+1]){
-        let temp=a[i];
-        a[i]=a[i+1];
-        a[i+1]=temp;
-    }
+// for(var i=0;i<a.length;i++){
+//     if(a[i]>a[i+1]){
+//         let temp=a[i];
+//         a[i]=a[i+1];
+//         a[i+1]=temp;
+//     }
+// }
+// console.log(a,"sorted array");
+
+//selection sort
+var array=[10,5,4,20,15,8,13,9,11];
+
+
+    function sort(array){
+        if(array.length<=1){
+            return array;
+        }
+
+        var num=array[0];
+        var left=[];
+        var right=[]; 
+        for(var i=1;i<array.length;i++){
+            if(array[i]<num){
+                left.push(array[i]);
+            }
+            else{
+                right.push(array[i]);
+            }
+        }
+        return [...sort(left),num, ...sort(right)]
 }
-console.log(a,"sorted array")
+var maxarray=sort(array);
+console.log(maxarray);
