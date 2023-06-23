@@ -285,12 +285,23 @@ var studentlist = ["snehal", "anu", "mayuri", "madhuri", "punam", "swaraj"];
 // }
 // console.log(array);
 
-function modify(arr,callback){
-    arr.push(100);
-    arr.push(24567);
-    callback();
+let n=5;
+let songs=[1,1,2,2,4];
+let singerCount={};
+
+for(var i=0;i<songs.length;i++){
+    const singer=songs[i];
+    if(singerCount[singer]){
+        singerCount[singer]++;
+    }else{
+        singerCount[singer]=1;
+    }
+
 }
-var arr=[1,2,3,4,5];
-modify(arr,function(){
-    console.log("modified array",arr);
-})
+let maxfrequency=0;
+for(let singer in singerCount){
+    if(singerCount[singer]>maxfrequency){
+        maxfrequency=singerCount[singer];
+    }
+}
+console.log(maxfrequency)
