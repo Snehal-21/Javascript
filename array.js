@@ -304,4 +304,13 @@ for(let singer in singerCount){
         maxfrequency=singerCount[singer];
     }
 }
-console.log(maxfrequency)
+console.log(maxfrequency);
+
+let favouriteCount=0;
+for(let singer in singerCount){
+    if(singerCount[singer]===maxfrequency){
+        favouriteCount++;
+    }
+}
+
+console.log(favouriteCount);
