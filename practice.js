@@ -133,13 +133,10 @@
 
 
 var array=[10,5,4,20,15,8,13,9,11];
-
-
     function sort(array){
         if(array.length<=1){
             return array;
         }
-
         var num=array[0];
         var left=[];
         var right=[]; 
@@ -151,7 +148,7 @@ var array=[10,5,4,20,15,8,13,9,11];
                 right.push(array[i]);
             }
         }
-        return [...sort(left),num, ...sort(right)]
+        return [...sort(left), num, ...sort(right)];
 }
 var maxarray=sort(array);
 console.log(maxarray);
