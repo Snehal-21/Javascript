@@ -9,3 +9,12 @@
 // console.log(a==b);
 
 
+
+let user = {
+    name: "John",
+    age: 30
+  };
+  
+  let key = "name";
+console.log(user.key);
+
