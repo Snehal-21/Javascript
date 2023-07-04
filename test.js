@@ -38,3 +38,14 @@
 // }
 
 // logJSONData();
+
+let array=[4323,3212,200,1];
+
+// for(let i=0;i<array.length;){
+//     if(array[i]==array[i+1]){
+//         array.splice(i,1)
+//     }else{
+//         i++;
+//     }
+// }
+console.log(array.sort());
