@@ -70,9 +70,26 @@
 // }
 // func2();
 
-(function(){
-  setTimeout(()=> console.log(1),2000);
-  console.log(2);
-  setTimeout(()=> console.log(3),0);
-  console.log(4);
-})();
+// (function(){
+//   setTimeout(()=> console.log(1),2000);
+//   console.log(2);
+//   setTimeout(()=> console.log(3),0);
+//   console.log(4);
+// })();
+
+
+// function display()  
+// {  
+//   console.log("10"+20+30);  
+// }  
+// display();  
+
+
+let m = 129;
+let n = m--;
+let o = n++;
+let a = n--;
+let b = o++;
+let c = --m;
+
+console.log(m,n,o,a,b,c);
