@@ -9,7 +9,7 @@
 //   "p2" : "Doe",
 //   "p3" : "User"
 // }
- 
+
 // //* Output : "JohnDoeUser"
 // let empt = ""
 // for(let key in message){
@@ -85,11 +85,50 @@
 // display();  
 
 
-let m = 129;
-let n = m--;
-let o = n++;
-let a = n--;
-let b = o++;
-let c = --m;
+// let m = 129;
+// let n = m--;
+// let o = n++;
+// let a = n--;
+// let b = o++;
+// let c = --m;
 
-console.log(m,n,o,a,b,c);
+// console.log(m,n,o,a,b,c);
+
+
+
+// console.log(3 - -"3");
+
+// let a={name:"A"};
+// let b={name:"A"};
+// console.log(a===b);
+
+
+// var x;
+
+// console.log(x);
+// x=10;
+
+
+// const x = "sneha";
+
+// let x1 = x.split('');
+// x1[0] = 'k';
+// x1[1] = 'u';
+// x1[2] = 'n';
+// x1[3] = 'a';
+// x1[4] = 'l';
+// // console.log(x1);
+// let x2 = x1.join('');
+// console.logc
+
+// console.log(3+'3'); //33
+// console.log(3-'3'); //0
+
+// console.log(3 + +'3'); //un
+// console.log(3 - - '3'); //se
+
+console.log(typeof(NaN));
+
+
+
+
