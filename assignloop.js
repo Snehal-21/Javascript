@@ -65,21 +65,21 @@
 
 // Q.7 write a program which print the sum of the even and odd numbers
 
-function evenodd(start,end){
-    var evenadd=0;
-    var oddadd=0;
-    for(a=start;a<=end;a++){
-        if(a%2==0){
-            evenadd++;
-        }
-        else{
-            oddadd++;
-        }
-    }
-    return[evenadd,oddadd];
-}
-var ans=evenodd(1,3);
-console.log(ans);
+// function evenodd(start,end){
+//     var evenadd=0;
+//     var oddadd=0;
+//     for(a=start;a<=end;a++){
+//         if(a%2==0){
+//             evenadd++;
+//         }
+//         else{
+//             oddadd++;
+//         }
+//     }
+//     return[evenadd,oddadd];
+// }
+// var ans=evenodd(1,3);
+// console.log(ans);
 
 // Q.8 print number is prime or not
 

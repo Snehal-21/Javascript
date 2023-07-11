@@ -120,14 +120,131 @@
 // // console.log(x1);
 // let x2 = x1.join('');
 // console.logc
-
+// 
 // console.log(3+'3'); //33
 // console.log(3-'3'); //0
 
 // console.log(3 + +'3'); //un
 // console.log(3 - - '3'); //se
 
-console.log(typeof(NaN));
+// console.log(typeof(NaN));
+
+// let n=10;
+// for(i=1;i<=n;i++){
+//     console.log(i);
+    
+// }
+
+// let n=10;
+// let sum=0;
+// for(let i=0;i<=n;i++){
+//     sum+=i;
+// }
+// console.log(sum);
+
+// let n=5;
+// function multi(n){
+//     for(let i=1;i<=10;i++){
+//         console.log(n*i)
+//     }
+// }
+// multi(5);
+
+
+//factorial
+
+// function fact(n){
+//     if(n==0 || n==1){
+//         return 1;
+//     }else{
+//         return n*fact(n-1);
+//     }
+// }
+// var ans=fact(0);
+// console.log(ans);
+
+//a raised b
+// function raisedOne(a){
+//     return function(b){
+//         return a**b;
+//     }
+// }
+// var ans = raisedOne(2)(3)
+// console.log(ans);
+
+
+//reverse a number
+
+// function reversed(n){
+//     var reverse=0;
+//     for(let i=n;i>0;i=Math.floor(i/10)){
+//         reverse=reverse*10+i%10;
+//     }
+//     return reverse;
+// }
+// var ans=reversed(1452);
+// console.log(ans);
+
+//sum of even and odd integers.
+
+// function evenOdd(...a){
+//     var evenSum=0;
+//     var oddSum=0;
+//     for(var i=0;i<a.length;i++){
+//         if(a[i]%2==0){
+//             evenSum+=a[i];
+//         }else{
+//             oddSum+=a[i]
+//         }
+//     }
+//     console.log("sum of even integers:"+evenSum );
+//     console.log("sum of odd integers:"+oddSum );
+// }
+// evenOdd(1,2,3,4,5,6,7,8,9);
+
+
+//prime number
+
+// function prime(n){
+//     if(n==1){
+//         console.log(n,'neither a prime nor a composite number.');
+//         return;
+//     }else{
+//         let flag=false;
+//         for(let i=2;i<n;i++){
+//             if(n%i==0){
+//                 flag=true;
+//                 break;
+//             }
+//         }
+//         if(flag){
+//             console.log(n,'not a prime');
+//         }else{
+//             console.log(n,"prime");
+            
+//         }
+//     }
+// }
+// prime(400);
+
+
+//HCF of two given numbers
+
+// function hcf(a,b){
+//     var num=1;
+//     for(var i=1;i<a && i<b;i++){
+//         if(a%i==0 && b%i==0){
+//             num*=i;
+//             // console.log(num);
+            
+//         }
+//     }
+//     return num;
+    
+// }
+// var ans=hcf(10,30);
+// console.log(ans);
+
 
 
 
