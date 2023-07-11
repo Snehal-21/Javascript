@@ -246,6 +246,86 @@
 // console.log(ans);
 
 
+//*left side traingle
+// let str="";
+// for(let i=0;i<4;i++){
+//     for(let j=0;j<=i;j++){
+//         str+="*";
+//         // console.log('*');
+        
+//     }
+//     str+="\n"
+    
+// }
+// console.log(str);
+
+
+//* downward triangle
+// let str="";
+// for(let i=4;i>=0;i--){
+//     for(let j=i;j>=0;j--){
+//         str+="*";
+//     }
+//     str+="\n";
+    
+// }
+// console.log(str);
+
+
+//
+
+// let str="";
+// let n=4;
+// for(let i=0;i<n;i++){
+//     for(let j=0;j<n-i;j++){
+//         str+="*";
+//     }
+//     str+="\n"
+// }
+// console.log(str);
+
+
+// let str="";
+// for(let i=0;i<4;i++){
+//     for(let j=0;j<4;j++){
+//         str+="*";
+//     }
+//     str+="\n";
+// }
+// console.log(str);
+
+
+let str="";
+let n=4;
+// for(let i=1;i<=n;i++){
+//     for(let j=1;j<=n-i;j++){
+//         str+=" ";
+//     }
+//     for(let k=0;k<2*i-1;k++){
+//         str+="*";
+//     }
+//     str+="\n";
+// }
+// console.log(str);
+
+// for(let i=n;i>=0;i--){
+//     for(let j=n-i;j>=1;j--){
+//         str+=" ";
+//     }
+//     for(let k=2*i;k>=0;k--){
+//         str+="*";
+//     }
+//     str+="\n";
+// }
+// console.log(str);
+
+
+
+
+
+
+
+
 
 
 
