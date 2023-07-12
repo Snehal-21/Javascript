@@ -226,3 +226,81 @@
 //     }
 //   }
 //   generatePyramid(5)
+
+
+//*palindrome
+
+// function palindrome(str){
+//     var newstr=str.toLowerCase();
+
+//     var start=0;
+//     var end=newstr.length-1;
+
+//     while(start<end){
+//         if(newstr[start]==newstr[end]){
+//             console.log("palindrome.");
+//             return;
+//         }
+//         start++;
+//         end--;
+//     }
+//     console.log(' not a palindrome');
+//     return;
+// }
+
+// palindrome("madam");
+
+
+// function checkPalindrome(string) {
+//     const len = string.length;
+
+//     for (let i = 0; i < len / 2; i++) {
+
+//         if (string[i] !== string[len - 1 - i]) {
+//             return 'It is not a palindrome';
+//         }
+//     }
+//     return 'It is a palindrome';
+// }
+
+
+
+//* Anagram
+
+// function anagram(str1,str2){
+//     let s1=str1.toLowerCase();
+//     let s2=str2.toLowerCase();
+//     let sorts1=s1.split('').sort().join('');
+//     let sorts2=s2.split('').sort().join('');
+//     if(sorts1.length==sorts2.length){
+//         if(sorts1===sorts2){
+//             console.log('anagram');
+//             return;
+//         }else{
+//             console.log('not a anagram');
+//         }
+//     }else{
+//         console.log('Strings are not equal.');
+//         return;
+//     }
+// }
+// anagram("dormitors","dirtyroom");
+
+
+//*longest substring
+
+function longestsubstr(str){
+    let maxlength=0;
+    let start=0;
+    let charmap={};
+    for(let i=0;i<str.length;i++){
+        if(charmap[str[i]]>=start){
+            start=charmap[str[i]]+1;
+        }
+        charmap[str[i]]=i;
+        maxlength=Math.max(maxlength,i-start+1);
+    }
+    console.log(maxlength);
+    
+}
+longestsubstr("abcaba")
