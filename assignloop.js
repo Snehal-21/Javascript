@@ -35,7 +35,7 @@
 //         }
 //         return sum;
 //     }
-//     var ans=fact(5);
+//     var ans=fact(1);
 //     console.log("factorial is: "+ans);
 
 // Q.5 program to find the value of one  number raised to the power of another
@@ -60,7 +60,7 @@
 //     }
 //     return reverse;
 // }
-// var ans= reversenumber(2432);
+// var ans= reversenumber(23);
 // console.log(ans);
 
 // Q.7 write a program which print the sum of the even and odd numbers
@@ -289,18 +289,18 @@
 
 //*longest substring
 
-function longestsubstr(str){
-    let maxlength=0;
-    let start=0;
-    let charmap={};
-    for(let i=0;i<str.length;i++){
-        if(charmap[str[i]]>=start){
-            start=charmap[str[i]]+1;
-        }
-        charmap[str[i]]=i;
-        maxlength=Math.max(maxlength,i-start+1);
-    }
-    console.log(maxlength);
+// function longestsubstr(str){
+//     let maxlength=0;
+//     let start=0;
+//     let charmap={};
+//     for(let i=0;i<str.length;i++){
+//         if(charmap[str[i]]>=start){
+//             start=charmap[str[i]]+1;
+//         }
+//         charmap[str[i]]=i;
+//         maxlength=Math.max(maxlength,i-start+1);
+//     }
+//     console.log(maxlength);
     
-}
-longestsubstr("abcaba")
+// }
+// longestsubstr("abcaba")

@@ -50,25 +50,25 @@
 //*returns true if the string is a palindrome (reads the same forwards and backwards),
 //* and false otherwise.
 
-function palindrome(str){
-    var newstr=str.toLowerCase();
+// function palindrome(str){
+//     var newstr=str.toLowerCase();
 
-    var start=0;
-    var end=newstr.length-1;
+//     var start=0;
+//     var end=newstr.length-1;
 
-    while(start<=end){
-        if(newstr[start]!==newstr[end]){
-            console.log("not palindrome.");
-            return;
-        }
-        start++;
-        end--;
-    }
-    console.log(' palindrome');
-    return;
-}
+//     while(start<=end){
+//         if(newstr[start]!==newstr[end]){
+//             console.log("not palindrome.");
+//             return;
+//         }
+//         start++;
+//         end--;
+//     }
+//     console.log(' palindrome');
+//     return;
+// }
 
-palindrome("madam");
+// palindrome("madamdv");
 
 
 //*Write a function in JavaScript called reverseArray that takes an array as an argument and returns
@@ -79,7 +79,7 @@ palindrome("madam");
 //     for(var i=array.length-1;i>=0;i--){
 //         reverseArray.push(array[i]);
 //     }
-    
+
 //     console.log(reverseArray);
 //     return;
 // }
@@ -101,29 +101,30 @@ palindrome("madam");
 //             array[i+1]=temp;
 //         }
 //     }
-    
+
 //     console.log(array);
-    
+
 // }
 // sortNumbers(array);
 
 
-// let array=[2,5,3,4,6];
-// let pivot=array[0];
-// let left=[];
-// let right=[];
-// function sort(array){
-//     for(let i=1;i<array.length;i++){
-//         if(array[i]<pivot){
-//             left.push(array[i]);
-//         }else{
-//             right.push(array[i]);
-//         }
-//     }
-//     return [...sort(left),pivot,...sort(right)];
-// }
-// var ans=sort(array);
-// console.log(ans);
+var array = [2, 5, 3, 4, 6];
+
+function sort(array) {
+    var pivot = array[0];
+    var left = [];
+    var right = [];
+    for (let i = 1; i < array.length; i++) {
+        if (array[i] < pivot) {
+            left.push(array[i]);
+        } else {
+            right.push(array[i]);
+        }
+    }
+    return [...sort(left), pivot, ...sort(right)];
+}
+var ans = sort(array);
+console.log(ans);
 
 
 //*For example, given the array [2, 4, 1, 3, 6, 7, 8], the missing number is 5, so the function should return 5.

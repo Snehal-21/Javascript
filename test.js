@@ -247,29 +247,29 @@
 
 
 //*left side traingle
-// let str="";
+// let str1="";
 // for(let i=0;i<4;i++){
 //     for(let j=0;j<=i;j++){
-//         str+="*";
+//         str1+="*";
 //         // console.log('*');
         
 //     }
-//     str+="\n"
+//     str1+="\n"
     
 // }
-// console.log(str);
+// console.log(str1);
 
 
 //* downward triangle
-// let str="";
+// let str1="";
 // for(let i=4;i>=0;i--){
 //     for(let j=i;j>=0;j--){
-//         str+="*";
+//         str1+="*";
 //     }
-//     str+="\n";
+//     str1+="\n";
     
 // }
-// console.log(str);
+// console.log(str1);
 
 
 //
@@ -297,16 +297,16 @@
 
 let str="";
 let n=4;
-// for(let i=1;i<=n;i++){
-//     for(let j=1;j<=n-i;j++){
-//         str+=" ";
-//     }
-//     for(let k=0;k<2*i-1;k++){
-//         str+="*";
-//     }
-//     str+="\n";
-// }
-// console.log(str);
+for(let i=1;i<=n;i++){
+    for(let j=1;j<=n-i;j++){
+        str+=" ";
+    }
+    for(let k=0;k<2*i-1;k++){
+        str+="*";
+    }
+    str+="\n";
+}
+console.log(str);
 
 // for(let i=n;i>=0;i--){
 //     for(let j=n-i;j>=1;j--){
@@ -318,6 +318,13 @@ let n=4;
 //     str+="\n";
 // }
 // console.log(str);
+
+
+
+let string="Abhishek";
+string="snehal";
+console.log(string);
+
 
 
 
